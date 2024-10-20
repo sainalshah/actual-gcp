@@ -39,5 +39,5 @@ variable "vm_image_project" {
 
 variable "vm_size" {
   type        = string
-  description = "VM instance type." # https://cloud.google.com/free/docs/free-cloud-features#free-tier
+  description = "VM instance type."
 }
