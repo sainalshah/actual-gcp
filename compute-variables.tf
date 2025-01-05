@@ -20,7 +20,7 @@ variable "duckdns_token" {
 
 variable "public_key_path" {
   type    = string
-  default = "~/.ssh/id_gcp_ed25519.pub"
+  default = "/home/sainal/.ssh/id_gcp_ed25519.pub"
 }
 
 variable "user" {
